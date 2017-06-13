@@ -15,7 +15,7 @@ it let me know and I can change it back.
 xrunto takes you to the wrong area, e.g. Fantasy Fields instead of 'fields' (Killing Fields)
 go to (in this case) Killing Fields and 'xset mark' the start room again and that should fix it.
 
-  So what was happening is that 'xrunto' wants to run you to the 'start room' for that 
+So what was happening is that 'xrunto' wants to run you to the 'start room' for that 
  area, which is set via 'xset mark'.  But if the area didn't have a start room (e.g. it
  was never set, or it somehow got lost), the the plugin would look to your mapper DB
  and get the lowest-numbered room uid in the zone and run you there.  Apparently, 
