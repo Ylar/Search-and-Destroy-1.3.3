@@ -7,7 +7,8 @@ There is also a new feature, which I think a lot of you will like.
 Bug fixes:
 - hunt trick will now correctly terminate after trying to hunt something that doesn't exist.
 - hunt trick will now abort if you try to do it while resting, sitting, or sleeping.
-- the problem with 'xrunto' sometimes taking you to a random-ish room is mostly fixed. 
+- the problem with 'xrunto' sometimes taking you to a random-ish room is mostly fixed.
+
   So what was happening is that 'xrunto' wants to run you to the 'start room' for that 
  area, which is set via 'xset mark'.  But if the area didn't have a start room (e.g. it
  was never set, or it somehow got lost), the the plugin would look to your mapper DB
