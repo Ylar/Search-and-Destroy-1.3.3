@@ -1,6 +1,9 @@
 # Search-and-Destroy-1.3.1
 
-This update is mostly bug fixes, one slightly bigger than the others.
+This update is mostly bug fixes, one slightly bigger than the others.  Also, I renamed
+the "auto-kill" function to "quick-kill" to better describe what the command actually
+does.  There was never anything "auto" about it.  It's a manually-entered command that
+sends "kill" along with the keywords for your current target, that's all.
 
 There is also a new feature, which I think a lot of you will like.
 
@@ -23,9 +26,9 @@ the assumption was that the lowest-numbered room is the likely start room since 
 is presumably the first to be created.
 
 Unfortunately, that only proved true for 2 or 3 areas out of 231 total. The rest
-of the time, the lowest room id could be anywhere in the zone, and actually, a lot
-of the time the destination room wasn't the lowest uid at all.  Suffice it to say
-that this was not brilliant, especially if it ran you into a room of aggros and
+of the time, it was 'runto roulette' because the lowest room id could be anywhere
+in the zone, and sometimes it wouldn't be the lowest uid at all.  Suffice it to say
+this was not brilliant, especially if it ran you into a room of aggros and
 got you killed.  Yeah, no thanks.
 
 The new approach is if no 'xset mark' start room exists, the plugin now has a
@@ -50,4 +53,6 @@ Lastly, new feature:
  your current CP and then go and take another one.  You can also toggle turn noexp off 
  manually via 'noexp' as usual.
  
-   To turn the feature back off, just do 'xset noexp off'. 
+   To turn the feature back off, just do 'xset noexp off'.
+   
+ That's all for the 1.3.1 update.
