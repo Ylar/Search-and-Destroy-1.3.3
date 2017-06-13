@@ -31,12 +31,12 @@ in the zone, and sometimes it wouldn't be the lowest uid at all.  Suffice it to 
 this was not brilliant, especially if it ran you into a room of aggros and
 got you killed.  Yeah, no thanks.
 
-The new approach is if no 'xset mark' start room exists, the plugin now has a
+The new approach is:  If no 'xset mark' start room exists, the plugin now has a
 lookup table with a 'default' start room for nearly every area, and it will
-run you to that room instead.  Most of the time it's the room linking to the
+run you there instead.  Most of the time it's the room linking to the
 continent or parent zone, but sometimes it's a few rooms in.  Some do have aggros
-but unless you run to something Xmas at low level, it generally won't kill you.  As
-a bonus, Upper and Lower Planes can now have a set 'xrunto' point, which I set to
+but unless you run to something like Xmas at low level, it generally won't kill you.  As
+a bonus, Upper and Lower Planes can now have a set 'xrunto' point, which I set to be
 the Amulet of the Planes landing room.
 
 Some SH areas got left out due to risk of me dying a lot.  For those, it's 'runto roulette'
@@ -55,4 +55,4 @@ Lastly, new feature:
  
    To turn the feature back off, just do 'xset noexp off'.
    
- That's all for the 1.3.1 update.
+ That's all for the 1.3.1 update, ninjas.  Happy searching and destroying :-)
