@@ -47,12 +47,16 @@ Lastly, new feature:
  - Auto-noexp!  When you're at low TNL and you can take a campaign at your current level, 
  it will turn on noexp and prevent you from over-levelling and missing a campaign.
 
-   When plugin is installed, it defaults to off.  To turn it on, do 'xset noexp <amount>'.
+   When plugin is installed, it defaults to off.  To turn it on, do 'xset noexp (amount)'.
  If you're on a CP but can take a new one at your current level, noexp will kick on 
  when your TNL drops below the given amount.  Noexp will kick back off after you finish
  your current CP and then go and take another one.  You can also toggle turn noexp off 
- manually via 'noexp' as usual.
+ manually via 'noexp' as usual.  For low levels I suggest setting it at 1000 TNL or so,
+ and around 500 when you get higher and mobs award less XP.  You may need to go higher
+ if there's a lot of double stacking with your daily blessing bonus.
+ 
+   If problems with it let me know but far as I can tell it's stable and works as intended.
  
    To turn the feature back off, just do 'xset noexp off'.
    
- That's all for the 1.3.1 update, ninjas.  Happy searching and destroying :-)
+ That's all for the 1.3.1 release, ninjas.  Happy searching and destroying :-)
