@@ -39,7 +39,8 @@ So what was happening is that 'xrunto' wants to run you to the 'start room' for 
   Some SH areas got left out due to risk of me dying a lot.  For those, it's 'runto roulette'
  until I add them in, but it's a handful of areas, maybe 5 or 6.
  
- Lastly, new feature:
+ 
+Lastly, new feature:
  - Auto-noexp!  When you're at low TNL and you can take a campaign at your current level, 
  it will turn on noexp and prevent you from over-levelling and missing a campaign.
  
