@@ -40,10 +40,13 @@ go to (in this case) Killing Fields and 'xset mark' the start room again and tha
  until I add them in, but it's a handful of areas, maybe 5 or 6.
  
  Lastly, new feature:
- - Automatically turn on 'noexp' when you're at low TNL and you can take a campaign
- at your current level.  When plugin is installed, it defaults to off.  To turn it on,
- do 'xset noexp <amount>'.  If you're on a CP but can take a new one at your current
- level, noexp will kick on when your TNL drops below the given amount.  Noexp will
- kick back off after you finish your current CP and then go and take another one.
-  You can also toggle turn noexp off manually via 'noexp' as usual.  To turn the
-  feature back off, just do 'xset noexp off'.
+ - Auto-noexp!  When you're at low TNL and you can take a campaign at your current level, 
+ it will turn on noexp and prevent you from over-levelling and missing a campaign.
+ 
+  When plugin is installed, it defaults to off.  To turn it on, do 'xset noexp <amount>'.
+ If you're on a CP but can take a new one at your current level, noexp will kick on 
+ when your TNL drops below the given amount.  Noexp will kick back off after you finish
+ your current CP and then go and take another one.  You can also toggle turn noexp off 
+ manually via 'noexp' as usual.
+ 
+  To turn the feature back off, just do 'xset noexp off'.
