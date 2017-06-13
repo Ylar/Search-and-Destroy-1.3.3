@@ -11,12 +11,14 @@ Bug fixes:
 try.  It will just do 'hunt mob' or 'where mob'.  I don't think it matters which is used,
 it seems to target the same thing either way, I just didn't like 1.mob.  If problems with
 it let me know and I can change it back.
-- the problem with 'xrunto' sometimes taking you to a random-ish room is mostly fixed.
+- the problem with 'xrunto' sometimes taking you to a random-ish room is mostly fixed. If 
+xrunto takes you to the wrong area, e.g. Fantasy Fields instead of 'fields' (Killing Fields)
+go to (in this case) Killing Fields and 'xset mark' the start room again and that should fix it.
 
   So what was happening is that 'xrunto' wants to run you to the 'start room' for that 
  area, which is set via 'xset mark'.  But if the area didn't have a start room (e.g. it
  was never set, or it somehow got lost), the the plugin would look to your mapper DB
- and get the lowest-numbered room uid in that area and run you there.  Apparently, 
+ and get the lowest-numbered room uid in the zone and run you there.  Apparently, 
  the assumption was that the lowest-numbered room is the likely start room since it
  is presumably the first to be created.
  
@@ -30,6 +32,9 @@ it let me know and I can change it back.
  lookup table with a 'default' start room for nearly every area, and it will
  run you to that room instead.  Most of the time it's the room linking to the
  continent or parent zone, but sometimes it's a few rooms in.  Some do have aggros
- but unless you run to something Xmas at low level, it generally won't kill you.  Some
- SH areas got left out due to risk of dying a lot.  For those, it's 'runto roulette'
- until I add them in, but it's a handful of areas, maybe 5 or 6.
+ but unless you run to something Xmas at low level, it generally won't kill you.  As
+ a bonus, Upper and Lower Planes can now have a set 'xrunto' point, which I set to
+ the Amulet of the Planes landing room.  
+ 
+ Some SH areas got left out due to risk of dying a lot.  For those, it's 'runto roulette'
+ until I add them in, but it's a handful of areas, maybe 5 or 6.  
