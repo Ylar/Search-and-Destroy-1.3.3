@@ -9,11 +9,13 @@ There is also a new feature, which I think a lot of you will like.
 
 Bug fixes:
 - hunt trick will now correctly terminate after trying to hunt something that doesn't exist.
-- hunt trick will now abort if you try to do it while resting, sitting, or sleeping.
-- not a bug per se, but hunt trick and quick-where will no longer use 1.mob for its first
+- hunt trick will now correctly terminate if you try to do it while resting, sitting, or sleeping.
+- hunt trick and quick-where will no longer use 1.mob for its first
 try.  It will just do 'hunt mob' or 'where mob'.  I don't think it matters which is used,
 it seems to target the same thing either way, I just didn't like 1.mob.  If problems with
 it let me know and I can change it back.
+- campaign target window will now populate when taking a CP from a questor.  Before, it would
+only populate when requesting from Commander Barcett.
 - the problem with 'xrunto' sometimes taking you to a random-ish room is mostly fixed. If 
 xrunto takes you to the wrong area, e.g. Fantasy Fields instead of 'fields' (Killing Fields)
 go to (in this case) Killing Fields and 'xset mark' the start room again and that should fix it.
