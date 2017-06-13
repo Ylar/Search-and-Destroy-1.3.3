@@ -52,7 +52,7 @@ Lastly, new feature:
    When plugin is installed, it defaults to off.  To turn it on, do 'xset noexp (amount)'.
  If you're on a CP but can take a new one at your current level, noexp will kick on 
  when your TNL drops below the given amount.  Noexp will kick back off after you finish
- your current CP and then go and take another one.  You can also toggle turn noexp off 
+ your current CP and then go and take another one.  You can also toggle noexp off 
  manually via 'noexp' as usual.  For low levels I suggest setting it at 1000 TNL or so,
  and around 500 when you get higher and mobs award less XP.  You may need to go higher
  if there's a lot of double stacking with your daily blessing bonus.
