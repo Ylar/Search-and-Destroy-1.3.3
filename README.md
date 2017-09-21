@@ -37,4 +37,9 @@ should) if the same room name exists in different areas.
 was doing with these crazy regexp's, but most wind up being complexity for their 
 own sake.  Fiendish certainly doesn't use them in his scripts, and I can see why.
 Unless anyone actually requires the complex versions, I'm looking at gutting the 
-command interface and making it a lot simpler.
+command interface and making it simpler and more consistent.
+
+It's going to be hard to top automatic noexp in terms of feature additions, but adding new features was never the primary objective.  There has been some speculation as to the reasons why I took up Search and Destroy, it comes down to these:\
+
+ - I want to learn, and hands-on projects like this one are what works best for me.  I've never been able to get started from
+ programming "how to" books or documentation, not because there's something wrong with them per se, but because my mind sometimes has trouble filling in the gulf between an abstract concept and and the real problems it could be used to solve.  A working script lets me see applied concepts and results side by side.  Observing how changes to the code affects the results helps me understand how an arbitrary result dictates the code required.  It's like an island in between.  Then, if a solution requires things I don't know, it's a lot easier to research them specifically and fill in those gaps.  That's what works and makes sense for me, so that's how I approach it.
