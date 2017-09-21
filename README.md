@@ -11,8 +11,6 @@ enabled and the timer interval set to zero.
 
 - Auto-noexp will work with exprate and non-exprate experience messages.
 
-- Mob keywords will always be sent to the MUD lower case.
-
 - Added filter to fix "Miss Area" mob keywords in Siren's Resort.
 
 - Added (some) missing areas to the list of default area start rooms.  I haven't
