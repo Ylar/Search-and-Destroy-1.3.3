@@ -1,11 +1,11 @@
 # Search-and-Destroy-1.3.2
 
-This update improves upon the last with new bug fixes and by addressing some of
+Update 1.3.2 improves upon the last with new bug fixes and by addressing some of
 the things that give Search and Destroy a bit of a clunky feel.  I'm a little bit
 nervous because of the potential for glitches, but (fingers crossed) it's working
 for me so hopefully it will work for you too!  Take a look:
 
-- Fixed issue with auto-noexp sometimes not kicking in when double is active and
+- Fixed the issue with auto-noexp sometimes not kicking in when double is active and
 TNL drops below the set point.  Note, in order for it to work, you must have timers
 enabled and the timer interval set to zero.
 
@@ -23,8 +23,10 @@ I do plan on re-visiting this as there are still improvements that could be made
 
 - 'xcp' will retry if it fails because of "no object or data busy".  
 
-- If you hit 'nx' too many times, you can go back using 'nx-' or right clicking
+- If you hit 'nx' too many times, you can go back by using 'nx-' or right-clicking
   the 'nx' button.
+
+- Enlarged GUI buttons to make them easier to click.
 
 - S&D now detects which type of CP is active.
 
@@ -38,3 +40,10 @@ was doing with these crazy regexp's, but most wind up being complexity for their
 own sake.  Fiendish certainly doesn't use them in his scripts, and I can see why.
 Unless anyone actually requires the complex versions, I'm looking at gutting the 
 command interface and making it simpler and more consistent.
+
+Please let me know if anything breaks or there are other issues.  Everything is working for me; it's been several dozen campaigns without any errors or having to stop and fix any problems.  When I upload these files, they're identical to what I'm running and have been testing.  Ideally that means good times for everyone, but if not, talk to me.  Be advised, my work schedule is exhausting, it fucking sucks and will only get worse as the god-forsaken holiday season approaches.  But if you contact me I'll do my best to get back to you whenever I manage to be awake and/or around.
+
+It'll be pretty hard to top automatic noexp as far as adding new features goes.  But adding new features was never the primary objective:  Bug and problem fixing was, and there's still plenty to be done on that front.  For now, I hope you enjoy this update as I believe it to be a noticeable improvement even over 1.3.1.
+
+Happy searching and destroying, ninjas.
+- 
