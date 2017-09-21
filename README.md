@@ -36,5 +36,5 @@ should) if the same room name exists in different areas.
 - Simplified 'xcp' and 'cp check' syntax in Mapper Extender.  I get what WinkleWinkle
 was doing with these crazy regexp's, but most wind up being complexity for their 
 own sake.  Fiendish certainly doesn't use them in his scripts, and I can see why.
-Unless people actually require the complex versions, I'm looking at gutting the 
+Unless anyone actually requires the complex versions, I'm looking at gutting the 
 command interface and making it a lot simpler.
