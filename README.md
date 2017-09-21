@@ -41,6 +41,9 @@ own sake.  Fiendish certainly doesn't use them in his scripts, and I can see why
 Unless anyone actually requires the complex versions, I'm looking at gutting the 
 command interface and making it simpler and more consistent.
 
+- Removed a lot of spammy text output (old debugging messages, etc.) plus other 
+general cleaning-up.
+
 Please let me know if anything breaks or there are other issues.  Everything is working for me; it's been several dozen campaigns without any errors or having to stop and fix any problems.  When I upload these files, they're identical to what I'm running and have been testing.  Ideally that means good times for everyone, but if not, come talk to me.  Please be advised, my work schedule is exhausting, it fucking sucks and will only get worse as the god-forsaken holiday hell season approaches.  But if you contact me I'll do my best to get back to you whenever I manage to be awake and/or around.
 
 It'll be pretty hard to top automatic noexp as far as adding new features goes.  But adding new features was never the primary objective:  Bug and problem fixing was, and there's still plenty to be done on that front.  For now, I hope you enjoy this update as I believe it to be a noticeable improvement even over 1.3.1.
