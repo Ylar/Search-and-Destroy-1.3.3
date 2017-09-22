@@ -40,18 +40,16 @@ Unless anyone actually requires the complex versions, I'm looking at gutting the
 command interface and making it simpler and more consistent.
 
 - Removed a lot of spammy text output (old debugging messages, etc.) plus other 
-general cleaning-up.
+general cleaning-up. 
 
-# Update 21 Sep 2017 @ 20:00 MUD time  
-
-On short notice, I'm implementing a change to correct a major omission that was brought
+Lastly, on short notice, I'm implementing a change to correct a glaring omission that was brought
 to my attention.  A few other things I was working on also made it in.  Hopefully they
 aren't horribly broken:
 
 - Hunt trick should now work for Navigators hunting through portals.  Previously, 
 it would break because the portal hunt message didn't match the regexp.  It looks
 functional to me now, but I'm not a navigator so please let me know if and when this
-breaks.  If it works, it should remove the need to patch it yourself.
+breaks.  If it works, it should remove the need to patch it yourself.  
 
 - Navigator auto-hunt will be trickier.  For now, when you try to hunt through a portal, you
 will be prompted to enter the portal and then autohunt again.
