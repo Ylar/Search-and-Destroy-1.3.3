@@ -42,7 +42,7 @@ command interface and making it simpler and more consistent.
 - Removed a lot of spammy text output (old debugging messages, etc.) plus other 
 general cleaning-up.
 
-#Update 21 Sep 2017 @ 20:00 MUD time  
+# Update 21 Sep 2017 @ 20:00 MUD time  
 
 On short notice, I'm implementing a change to correct a major omission that was brought
 to my attention.  A few other things I was working on also made it in.  Hopefully they
