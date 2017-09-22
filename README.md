@@ -59,7 +59,7 @@ will be prompted to enter the portal and then autohunt again.
 - The autohunt command interface has been redone, in line with the general simplification
 plan mentioned above.  If anything goes wrong with it, let me know.  This wasn't rushed,
 exactly, it just hasn't had as long to be tested as other things, but I fixed all of the
-issues that I was able to identify.
+issues that I was able to identify.  Type "search help" to see the new command syntax.
 
 Please let me know if anything breaks or there are other issues.  Everything is working for me; it's been several dozen campaigns without any errors or having to stop and fix any problems.  When I upload these files, they're identical to what I'm running and have been testing.  Ideally that means good times for everyone, but if not, come talk to me.  Please be advised, my work schedule is exhausting, it fucking sucks and will only get worse as the god-forsaken holiday hell season approaches.  But if you contact me I'll do my best to get back to you whenever I manage to be awake and/or around.
 
