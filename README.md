@@ -42,6 +42,25 @@ command interface and making it simpler and more consistent.
 - Removed a lot of spammy text output (old debugging messages, etc.) plus other 
 general cleaning-up.
 
+#Update 21 Sep 2017 @ 20:00 MUD time  
+
+On short notice, I'm implementing a change to correct a major omission that was brought
+to my attention.  A few other things I was working on also made it in.  Hopefully they
+aren't horribly broken:
+
+- Hunt trick should now work for Navigators hunting through portals.  Previously, 
+it would break because the portal hunt message didn't match the regexp.  It looks
+functional to me now, but I'm not a navigator so please let me know if and when this
+breaks.  If it works, it should remove the need to patch it yourself.
+
+- Navigator auto-hunt will be trickier.  For now, when you try to hunt through a portal, you
+will be prompted to enter the portal and then autohunt again.
+
+- The autohunt command interface has been redone, in line with the general simplification
+plan mentioned above.  If anything goes wrong with it, let me know.  This wasn't rushed,
+exactly, it just hasn't had as long to be tested as other things, but I fixed all of the
+issues that I was able to identify.
+
 Please let me know if anything breaks or there are other issues.  Everything is working for me; it's been several dozen campaigns without any errors or having to stop and fix any problems.  When I upload these files, they're identical to what I'm running and have been testing.  Ideally that means good times for everyone, but if not, come talk to me.  Please be advised, my work schedule is exhausting, it fucking sucks and will only get worse as the god-forsaken holiday hell season approaches.  But if you contact me I'll do my best to get back to you whenever I manage to be awake and/or around.
 
 It'll be pretty hard to top automatic noexp as far as adding new features goes.  But adding new features was never the primary objective:  Bug and problem fixing was, and there's still plenty to be done on that front.  For now, I hope you enjoy this update as I believe it to be a noticeable improvement even over 1.3.1.
