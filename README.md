@@ -8,8 +8,8 @@
 
 - Room cp targets are now sorted by area.  Special thanks to Fiendish for helping me with this.
 
-- The font size and line spacing can now be changed in the GUI window.  The commands are 'xgui fontsize <number>'
-  and 'xgui linespace <number>'.  Defaults are 8 and 15, respectively.
+- The font size and line spacing can now be changed in the GUI window.  The commands are 'xgui fontsize \<number>'
+  and 'xgui linespace \<number>'.  Defaults are 8 and 15, respectively.
 
 - The cp list font will change between Lucida Sans Unicode and Segoe depending on cp type.  Segoe is a bit
   narrower than Lucida and it might allow more room cp text to fit in the window.  Xgui fontsize works on
