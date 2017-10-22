@@ -1,4 +1,4 @@
-# Search and Destroy-1.3.3
+# Search and Destroy 1.3.3
 
 # Search and Destroy 1.3.2 - 22 Sept 2017
 - Added 'xcp' as an alias for 'xcp 1'.
@@ -42,3 +42,37 @@ will be prompted to enter the portal and then autohunt again.
 plan mentioned above.  If anything goes wrong with it, let me know.  This wasn't rushed,
 exactly, it just hasn't had as long to be tested as other things, but I fixed all of the
 issues that I was able to identify.  Type "search help" to see the new command syntax.
+
+# Search and Destroy 1.3.1
+Bug fixes:
+- hunt trick will now correctly terminate after trying to hunt something that doesn't exist.
+- hunt trick will now correctly terminate if you try to do it while resting, sitting, or sleeping.
+- hunt trick and quick-where will no longer use 1.mob for its first
+try.  It will just do 'hunt mob' or 'where mob'.  I don't think it matters which is used,
+it seems to target the same thing either way, I just didn't like 1.mob.  If problems with
+it let me know and I can change it back.
+- campaign target window will now populate when taking a CP from a questor.  Before, it would
+only populate when requesting from Commander Barcett.
+- the problem with 'xrunto' sometimes taking you to a random-ish room is mostly fixed. If 
+xrunto takes you to the wrong area, e.g. Fantasy Fields instead of 'fields' (Killing Fields)
+go to (in this case) Killing Fields and 'xset mark' the start room again and that should fix it.
+
+New feature:
+- Auto-noexp!  When you're at low TNL and you can take a campaign at your current level, 
+ it will turn on noexp and prevent you from over-levelling and missing a campaign.
+
+   When plugin is installed, it defaults to off.  To turn it on, do 'xset noexp (amount)'.
+ If you're on a CP but can take a new one at your current level, noexp will kick on 
+ when your TNL drops below the given amount.  Noexp will kick back off after you finish
+ your current CP and then go and take another one.  You can also toggle noexp off 
+ manually via 'noexp' as usual.  For low levels I suggest setting it at 1000 TNL or so,
+ and around 500 when you get higher and mobs award less XP.  You may need to go higher
+ if there's a lot of double stacking with your daily blessing bonus.
+ 
+# Search and Destroy 1.3.0
+- Search and Destroy is once again being actively worked on, and this time I'm in charge!
+Good times are ahead!
+- The bug causing the GUI window to 'jump' and leave the screen when you try to move it has
+been fixed.  It is no longer possible for the window to get lost, stuck, or otherwise go
+beyond the edges of the screen.
+
