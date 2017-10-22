@@ -1,4 +1,7 @@
 # Search and Destroy 1.3.3 - 22 October 2017
+Good morning ninjas, we have a new update today.  As usual, if there are any problems, let me know and I'll do
+what I can.  Here we go:
+
 - The campaign type detect should correctly identify the cp type when a room and the area 
   it's in have the same name.
 
@@ -30,6 +33,9 @@
   looks and feels a lot cleaner now.
 
 - Continued the trend of more code clean-up, regexp simplification, neater output appearance, and all that.
+
+That's all for now.  Happy searching and destroying, and thanks for all your support!
+
 
 # Search and Destroy 1.3.2 - 22 September 2017
 - Added 'xcp' as an alias for 'xcp 1'.
