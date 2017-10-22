@@ -1,22 +1,6 @@
-# Search-and-Destroy-1.3.2
+# Search-and-Destroy-1.3.3
 
-Update 1.3.2 improves upon the last with new bug fixes and by addressing some of
-the things that give Search and Destroy a bit of a clunky feel.  I'm a little bit
-nervous because of the potential for glitches, but (fingers crossed) it's working
-for me so hopefully it will work for you too!  Take a look:
-
-- Fixed the issue with auto-noexp sometimes not kicking in when double is active and
-TNL drops below the set point.  Note, in order for it to work, you must have timers
-enabled and the timer interval set to zero.
-
-- Auto-noexp will work with exprate and non-exprate experience messages.
-
-- Added filter to fix "Miss Area" mob keywords in Siren's Resort.
-
-- Added (some) missing areas to the list of default area start rooms.  I haven't
-had anyone raise issues with the revamped xrunto approach, which is a good sign.
-I do plan on re-visiting this as there are still improvements that could be made.
-
+* Update 1.3.2 - 22 Sept 2017
 - Added 'xcp' as an alias for 'xcp 1'.
 
 - 'xcp' will retry if it fails because of "no object or data busy".  
@@ -58,10 +42,3 @@ will be prompted to enter the portal and then autohunt again.
 plan mentioned above.  If anything goes wrong with it, let me know.  This wasn't rushed,
 exactly, it just hasn't had as long to be tested as other things, but I fixed all of the
 issues that I was able to identify.  Type "search help" to see the new command syntax.
-
-Please let me know if anything breaks or there are other issues.  Everything is working for me; it's been several dozen campaigns without any errors or having to stop and fix any problems.  When I upload these files, they're identical to what I'm running and have been testing.  Ideally that means good times for everyone, but if not, come talk to me.  Please be advised, my work schedule is exhausting, it fucking sucks and will only get worse as the god-forsaken holiday hell season approaches.  But if you contact me I'll do my best to get back to you whenever I manage to be awake and/or around.
-
-It'll be pretty hard to top automatic noexp as far as adding new features goes.  But adding new features was never the primary objective:  Bug and problem fixing was, and there's still plenty to be done on that front.  For now, I hope you enjoy this update as I believe it to be a noticeable improvement even over 1.3.1.
-
-Happy searching and destroying, ninjas.
-- 
