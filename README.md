@@ -1,6 +1,6 @@
-# Search-and-Destroy-1.3.3
+# Search and Destroy-1.3.3
 
-* Update 1.3.2 - 22 Sept 2017
+# Search and Destroy 1.3.2 - 22 Sept 2017
 - Added 'xcp' as an alias for 'xcp 1'.
 
 - 'xcp' will retry if it fails because of "no object or data busy".  
