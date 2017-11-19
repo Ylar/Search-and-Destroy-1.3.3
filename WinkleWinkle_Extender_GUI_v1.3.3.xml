@@ -477,17 +477,19 @@ function add_resize_tag()
 
 	-- Hotspot for resizer.
 	if (WindowHotspotInfo(win, "hsResize", 1) == nil) then
-		WindowAddHotspot(win, "hsResize", win_width-RESIZE_TAG_SIZE, win_height-RESIZE_TAG_SIZE, win_width, win_height, "", "", "MouseDown", "", "", "", 6, 0)
+		WindowAddHotspot(win, "hsResize", win_width-RESIZE_TAG_SIZE, win_height-RESIZE_TAG_SIZE, win_width, win_height, "", "", "mousedown", "", "", "", 6, 0)
 		WindowDragHandler(win, "hsResize", "ResizeMoveCallback", "ResizeReleaseCallback", 0)
 	else
 		WindowMoveHotspot(win, "hsResize", win_width-RESIZE_TAG_SIZE, win_height-RESIZE_TAG_SIZE, 0, 0)
 	end
 end
 
-function MouseDown(flags, hotspot_id)
-   if (hotspot_id == "hsResize") then
-      startx, starty = WindowInfo (win, 17), WindowInfo (win, 18)
-   end
+function mousedown(flags, hotspot_id)
+	if (hotspot_id == "hsResize") then
+		startx, starty = WindowInfo (win, 17), WindowInfo (win, 18)
+	elseif (hotspot_id == "hsDrag1") then
+		startx, starty = WindowInfo (win, 14), WindowInfo (win, 15)
+	end
 end
 
 -- When command button is clicked, this function sends appropriate command
@@ -629,8 +631,8 @@ end
 
 function dragmove(flags, hotspot_id)
 	if bit.band(flags, 0x20) == 0 then
-		pos_x = WindowInfo(win, 17) - 50
-		pos_y = WindowInfo(win, 18) - 7
+		pos_x = WindowInfo(win, 17) - startx
+		pos_y = WindowInfo(win, 18) - starty
 		local max_x = GetInfo(281) - 100
 		local max_y = GetInfo(280) - 60
 		if (pos_x <= 1) then 			-- Prevents window from leaving the screen.
